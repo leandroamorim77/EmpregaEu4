@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Customer Area Acecss</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="remember">Remember</string>
+    <string name="login">Login</string>
+    <string name="textoExemplo">Welcome to the Customer Area.</string>
+    <string name="msgError">User error</string>
+    <string name="bemVindo">Welcome to your area!!</string>
+    <string name="acessoConta">Access your account</string>
+    <string name="ola">Hello!!!</string>
+    <string name="dadosCadastrais">Consult Your Data</string>
+    <string name="contabil">Accounting Data</string>
+    <string name="fiscal">Tax Data</string>
+    <string name="pessoal">Payroll Access</string>
+</resources>

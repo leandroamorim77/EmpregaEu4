@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Escritório Contábil Talita e Vinicius</string>
+    <string name="name">Nome</string>
+    <string name="password">Senha</string>
+    <string name="remember">Lembrar</string>
+    <string name="login">Login</string>
+    <string name="textoExemplo">Bem Vindo a Área do CLiente.</string>
+    <string name="msgError">Usuário incorreto</string>
+    <string name="bemVindo">Bem vindo a sua área!!</string>
+    <string name="acessoConta">Acesse sua Conta</string>
+    <string name="ola">Olá!!!</string>
+    <string name="dadosCadastrais">Consulte Seus Dados</string>
+    <string name="contabil">Dados Contábeis</string>
+    <string name="fiscal">Dados Fiscais</string>
+    <string name="pessoal">Acesso a Folha de Pagamento</string>
+</resources>
