@@ -10,25 +10,14 @@ class Tela2Activity : AppCompatActivity() {
     private lateinit var binding: ActivityTela2Binding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         binding = ActivityTela2Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val usuarioNome = binding.tvUsuarioNome
-        val nome = intent.getStringExtra("nome")
-        usuarioNome.text = nome
+        val btDadosT3 = binding.btDadosT3
 
-        binding.btDadosT3.setOnClickListener { tela3()}
-
-
+        btDadosT3.setOnClickListener {
+            val inten = Intent(this, CadastroUsuario::class.java)
+            startActivity(inten)
+        }
     }
-
-    private fun tela3(){
-        val intent = Intent (this, Tela3Activity::class.java)
-        startActivity(intent)
-
-        //setContentView(R.layout.activity_tela3)
-    }
-
 }
-
