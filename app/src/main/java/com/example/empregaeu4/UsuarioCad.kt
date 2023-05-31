@@ -48,19 +48,19 @@ class UsuarioCad : AppCompatActivity() {
             }
 
             if (cadCpfbt.isEmpty()) {
-                cadCpf.error = "Por favor, insira um Valor"
+                cadCpf.error = "Por favor, insira CPF"
             }
 
             if (cadNascbt.isEmpty()) {
-                cadNasc.error = "Por favor, insira uma Instituição"
+                cadNasc.error = "Por favor, insira Data Nascimento"
             }
 
             val empId = dbRef.push().key!!
 
-            val Doador = DadosUsuario(cadNamebt, cadEmailbt, cadPhonebt, cadCpfbt, cadNascbt
+            val Usuario = DadosUsuario(cadNamebt, cadEmailbt, cadPhonebt, cadCpfbt, cadNascbt
             )
 
-            dbRef.child(empId).setValue(Doador)
+            dbRef.child(empId).setValue(Usuario)
                 .addOnCompleteListener {
                     Toast.makeText(this, "Cadastro realizado", Toast.LENGTH_SHORT).show()
 
