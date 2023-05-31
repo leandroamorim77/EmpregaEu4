@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "765145569416",
+    "project_id": "empregaeu-primeiraav",
+    "storage_bucket": "empregaeu-primeiraav.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765145569416:android:e00d9b164c1514f3f8e73d",
+        "android_client_info": {
+          "package_name": "com.example.empregaeu4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFSs0kn7PHJjnDd99P8F3fFX2XF5S6kY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

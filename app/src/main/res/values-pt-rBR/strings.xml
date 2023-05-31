@@ -7,11 +7,39 @@
     <string name="login">Login</string>
     <string name="textoExemplo">Bem Vindo a Área do CLiente.</string>
     <string name="msgError">Usuário incorreto</string>
-    <string name="bemVindo">Bem vindo a sua área!!</string>
+    <string name="bemVindo">Bem-vindo a sua área!!</string>
     <string name="acessoConta">Acesse sua Conta</string>
-    <string name="ola">Olá!!!</string>
-    <string name="dadosCadastrais">Consulte Seus Dados</string>
+    <string name="ola">Olá!</string>
+    <string name="dadosCadastrais">Cadastro de Usuário</string>
     <string name="contabil">Dados Contábeis</string>
     <string name="fiscal">Dados Fiscais</string>
     <string name="pessoal">Acesso a Folha de Pagamento</string>
+
+    //Tela 1
+    <string name="appName">Cadastro de Usuário!</string>
+
+    <string name="pass">Senha</string>
+    <string name="buttLogin">Entrar</string>
+
+
+    //Tela 2
+    <string name="welcome" translatable="false">Olá! Bem vindo, </string>
+    <string name="introduction">Através dessa página, você poderá consultar os usuários cadastrados e cadastrar novos usuários.
+
+       Clique abaixo na opção desejada.
+    </string>
+    <string name="buttView" translatable="false">Usuários Cadastrados</string>
+    <string name="buttStar" translatable="false">Cadastrar Usuários</string>
+
+
+    //Tela 3
+    <string name="NameDonat" translatable="false">Nome Completo</string>
+    <string name="Email" translatable="false">E-mail</string>
+    <string name="Phone" translatable="false">Telefone</string>
+    <string name="Value" translatable="false">CPF</string>
+    <string name="Inst" translatable="false">Data Nascimento</string>
+    <string name="buttinCadastro" translatable="false">Cadastrar</string>
+
+
+
 </resources>
