@@ -13,20 +13,20 @@ class CadastroUsuario : AppCompatActivity() {
         setContentView(binding.root)
 
         val btStar = binding.btStart
-        val btViewD = binding.btView
+        val btViewU = binding.btView
 
 
 
-        //nameUser.text = R.string.well.toString() + " " + nameGet
+
 
         btStar.setOnClickListener {
-            val intenDon = Intent(this, UsuarioCad::class.java)
-            startActivity(intenDon)
+            val intenUsu = Intent(this, UsuarioCad::class.java)
+            startActivity(intenUsu)
 
         }
-        btViewD?.setOnClickListener {
-            val intenViewDon = Intent(this, ListUsuario::class.java)
-            startActivity(intenViewDon)
+        btViewU?.setOnClickListener {
+            val intenViewUsu = Intent(this, ListUsuario::class.java)
+            startActivity(intenViewUsu)
 
         }
 
