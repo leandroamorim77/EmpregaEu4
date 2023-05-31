@@ -73,7 +73,7 @@ class UsuarioCad : AppCompatActivity() {
                 }.addOnFailureListener { err ->
                     Toast.makeText(this, "Error ${err.message}", Toast.LENGTH_SHORT).show()
                 }
-            // setContentView(R.layout.activity_donat)
+
         }
     }
 }
